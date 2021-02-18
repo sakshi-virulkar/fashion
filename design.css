@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ html,body{
+     width: 100%;
+     height: 100%;
+     font-family: "Montserrat";
+    
+ }
+
+ #back{
+    width: 100%;
+    height: 100%;
+    
+ }
+ #top{
+     display: flex;
+     width: 100%;
+     height:93%;
+  
+ }
+ #bottom{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     width: 100%;
+     height: 7%;
+     background-color: rgb(255, 255, 255);
+ }
+#bottom h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    font-weight: 500;
+}
+#bottom a{
+    font-size: 11px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.671);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#emid > h5{
+    font-weight: 500;
+    font-size: 12px;
+    color: black;
+}
+#emid h3{
+    font-weight: 500;
+    font-size: 10px;
+}
+#left{
+    width: 35%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1441123694162-e54a981ceba5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#centre{
+    width: 40%;
+    height: 100%;
+    box-shadow: 3px -7px 10px black;
+}
+
+#right{
+    position: relative;
+    width: 25%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1450297166380-cabe503887e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1490&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#topnav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color:rgba(49, 63, 51, 0.925);
+}
+#search i{
+    font-size: 13px;
+    color: blanchedalmond;
+    margin-left: -40px;
+    margin-right: 20px;
+ }
+#search input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid blanchedalmond;
+    color: blanchedalmond;
+    font-family: 'Montserrat';
+   
+}
+#icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+    background-color:rgba(45, 58, 47, 0.932);
+    margin-right: -100px;
+    color: blanchedalmond;
+}
+#icons i{
+    padding: 0 15px;
+}
+
+#btsec{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 60px);
+    background-color: rgba(30, 58, 34, 0.726);
+}
+#btnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    width: 100%;
+    height: 50px;
+    color: blanchedalmond;
+}
+#dot{
+    width: 20px;
+    height: 20px;
+    background-color: rgba(45, 65, 48, 0.863);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 3px 1px 4px rgba(0, 0, 0, 0.479);
+}
+#btdets
+{   position: absolute;
+    width: 450px;
+   bottom: 100px;
+   left: 10px;
+   color: blanchedalmond;
+   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.411);
+}
+#btdets h1{
+    font-family: 'Playfair Display';
+    font-size: 42px;
+    font-weight: 300; 
+    margin-bottom: 10px;
+
+}
+#btdets p{
+    font-size: 12px;
+    padding: 5px;
+}
+
+#line{
+    width: 490px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.459);
+    margin-bottom: 10px;
+}
+#more{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+#more h1,h2{
+    color: blanchedalmond;
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+#join{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.767);
+
+}
+#join h1{
+    color: blanchedalmond;
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
